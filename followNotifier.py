@@ -25,7 +25,7 @@ def send_message(message_subject, message_body, subscriber):
 
 def get_subscribers():
 	strArr = []
-	conversations = reddit.subreddit(SUBREDDIT).modmail.conversations(state='all', sort= 'unread', limit=3)
+	conversations = reddit.subreddit(SUBREDDIT).modmail.conversations(state='all', sort= 'unread', limit=20)
 	for conv in conversations:
 		try:
 			if conv.user.name != NOTIFIER and str(conv.subject) != SUBSCRIBE_SUBJECT:
