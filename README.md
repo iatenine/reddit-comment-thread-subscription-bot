@@ -14,6 +14,7 @@ Pre-requisites
 Getting Started
 ---------------
 You will first need the following code added to your Automoderator config:
+
     type: comment
     body: "!follow"
     action: remove
