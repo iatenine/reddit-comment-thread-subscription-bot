@@ -1,4 +1,4 @@
-# PRAWFollowNotifier
+# Reddit Comment Thread Subscription Bot
 
 This bot is designed to notify users who have chosen to subscribe to a Reddit submission of updates to comments and their replies
 for which they are not the author or the top-level post author (and would thereby be aware or notified by Reddit anyways)
